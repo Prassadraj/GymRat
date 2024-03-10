@@ -36,160 +36,59 @@
 /* Style for contact info section */
 
 
-@media screen and (max-width: 768px) {
-    #rockilogo {
-        display: none; /* Hide the element */
-    }
-
-    .hero__caption{
-        margin-left: 90px;
-    }
-}
-@media only screen and (min-width: 370px) and (max-width: 768px) {
-    /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
-    .single-slider .hero__caption {
-      /* background-image:url(/Users/prassadraj/Downloads/zacson-master/Doc/img/image4.jpeg); */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: auto;
-    }
-  }
-  /* map  */
-  .mapLocation {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (iframe default) */
-}
-
-.mapLocation iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.contact-title {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 24px;
-    text-align: center;
-}
-/* contactUS  */
+/* Center the contact form */
 .row {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.col-12 {
-    width: 100%;
+.col-lg-8, .col-lg-3 {
+    width: auto;
 }
 
-.col-lg-8 {
-    width: 66.66666667%;
-}
-
-.col-lg-3 {
-    width: 25%;
-}
-
-.offset-lg-1 {
-    margin-left: 8.33333333%;
-}
-
-.contact-title {
-    margin-top: 20px;
-}
-
-.contact-info {
-    margin-bottom: 20px;
-}
-
-.contact-info__icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    font-size: 20px;
-    margin-right: 10px;
-}
-
-.contact-info__icon i {
-    color: #333;
-}
-
-.contact-info h3 {
-    margin: 0;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.contact-info p {
-    margin: 0;
-    font-size: 14px;
-    color: #666;
-}
-
-form {
-    max-width: 100%;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-textarea {
-    resize: vertical;
-}
-
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-@media (max-width: 991px) {
-    .col-lg-8 {
+/* Adjust the layout for smaller screens */
+@media (max-width: 768px) {
+    .col-lg-8, .col-lg-3 {
         width: 100%;
-    }
-    .col-lg-3 {
-        width: 50%;
     }
     .offset-lg-1 {
         margin-left: 0;
     }
 }
 
-@media (max-width: 767px) {
-    .col-lg-3 {
-        width: 100%;
-        margin-left: 0;
-    }
+/* Style for the contact form */
+.contact-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center the button */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
 }
