@@ -3207,7 +3207,7 @@ hr {
 
 /* line 78, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li:hover > a {
-  color: #fff;
+  color: #ff0000;
   text-decoration: underline;
 }
 
@@ -3737,7 +3737,7 @@ hr {
 @media (max-width: 575px) {
   /* line 17, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_traning-cat.scss */
   .traning-categories .single-topic .topic-img {
-    margin-top: 67px;
+    /* margin-top: 67px; */
     margin-bottom: 61px;
   }
 }
@@ -4240,6 +4240,11 @@ font-size: 40px;
 /* line 91, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_about.scss */
 .about-area2 .support-wrapper .right-content2 .right-img img {
   width: 100%;
+  
+}
+.right-img img{
+  height: 600px;
+  object-fit: contain;
 }
 
 /* line 1, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_services_section.scss */
