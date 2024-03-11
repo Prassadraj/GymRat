@@ -3201,9 +3201,12 @@ hr {
 
 /* line 62, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li a {
-  color: #868585;
+  color: #fefefe;
+  background: #000;
   font-weight: 500;
-  padding: 39px 21px;
+  padding: 0px 29px;
+  margin-left: 10px;
+  border-radius: 30%;
   display: block;
   font-size: 18px;
   font-family: "Oswald", sans-serif;
@@ -3410,7 +3413,7 @@ hr {
 
 /* line 31, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area2 {
-  background-image: url(../img/mainpic.jpg);
+  background-image: url(../img/casual3.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
