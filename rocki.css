@@ -10,7 +10,129 @@
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     border-radius: 50%;
 }
+/* fuel/\ */
+/* For iPhone 5/SE and similar */
+@media only screen and (max-width: 320px) {
+    .single-topic .topic-img img {
+        max-width: 100%;
+    }
+    .single-topic .topic-content-box {
+        padding: 20px;
+    }
+}
 
+/* For iPhone 6/7/8 and similar */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .single-topic .topic-img img {
+        max-width: 100%;
+    }
+    .single-topic .topic-content-box {
+        padding: 20px;
+    }
+}
+
+/* For iPhone 6/7/8 Plus and similar */
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+    .single-topic .topic-img img {
+        max-width: 100%;
+    }
+    .single-topic .topic-content-box {
+        padding: 20px;
+    }
+}
+
+/* For iPhone X/XS/11 Pro and similar */
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .single-topic .topic-img img {
+        max-width: 100%;
+    }
+    .single-topic .topic-content-box {
+        padding: 20px;
+    }
+}
+
+/* For iPhone XR/11 and similar */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .single-topic .topic-img img {
+        max-width: 100%;
+    }
+    .single-topic .topic-content-box {
+        padding: 20px;
+    }
+}
+
+/* For iPhone XS Max/11 Pro Max and similar */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .single-topic .topic-img img {
+        max-width: 100%;
+    }
+    .single-topic .topic-content-box {
+        padding: 20px;
+    }
+}
+
+/* what i offer */
+/* For iPhone 5/SE and similar */
+@media only screen and (max-width: 320px) {
+    .single-cat .cat-icon img {
+        max-width: 100%;
+    }
+    .single-cat .cat-cap {
+        padding: 20px;
+    }
+}
+
+/* For iPhone 6/7/8 and similar */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .single-cat .cat-icon img {
+        max-width: 100%;
+    }
+    .single-cat .cat-cap {
+        padding: 20px;
+    }
+}
+
+/* For iPhone 6/7/8 Plus and similar */
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+    .single-cat .cat-icon img {
+        max-width: 100%;
+    }
+    .single-cat .cat-cap {
+        padding: 20px;
+    }
+}
+
+/* For iPhone X/XS/11 Pro and similar */
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .single-cat .cat-icon img {
+        max-width: 100%;
+    }
+    .single-cat .cat-cap {
+        padding: 20px;
+    }
+}
+
+/* For iPhone XR/11 and similar */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .single-cat .cat-icon img {
+        max-width: 100%;
+    }
+    .single-cat .cat-cap {
+        padding: 20px;
+    }
+}
+
+/* For iPhone XS Max/11 Pro Max and similar */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .single-cat .cat-icon img {
+        max-width: 100%;
+    }
+    .single-cat .cat-cap {
+        padding: 20px;
+    }
+}
+
+ 
 /* Make it responsive */
 @media (max-width: 768px) {
     .logo-container {
