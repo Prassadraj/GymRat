@@ -3454,7 +3454,7 @@ margin-top: -100px;
 
   }
   .slider-area {
-    background-image: url(/Users/prassadraj/Downloads/zacson-master/Doc/img/mainpic.jpg);
+    background-image: url(../img/image4.jpeg);
     background-position: right;
     background-size: cover; /* Ensures the background image covers the entire container */
     height: 100vh; /* Ensures the container takes up the full height of the viewport */
