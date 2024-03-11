@@ -3402,7 +3402,7 @@ hr {
 
 /* line 31, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area2 {
-  background-image: url(/Users/prassadraj/Downloads/zacson-master/Doc/img/image4.jpeg);
+  background-image: url(../img/image4.jpeg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -3411,7 +3411,7 @@ hr {
 /* line 37, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
-  background-image: url(/Users/prassadraj/Downloads/zacson-master/Doc/img/image4.jpeg);
+  background-image: url(../img/image4.jpeg);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: cover;
