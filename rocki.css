@@ -1,29 +1,59 @@
+/* Define styles for logo */
+.logo-container {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
 #rockilogo {
-    width: 130px; /* Adjust width according to your logo size */
+    width: 100px; /* Adjust width according to your logo size */
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     border-radius: 50%;
-    position: absolute;
-    left: 80px;
-    top: 20px;
-    background-color: transparent; /* Set the background color to transparent */
 }
-.rockilogo{
-    width: 130px; /* Adjust width according to your logo size */
-    height: auto; /* Automatically adjust height to maintain aspect ratio */
-    border-radius: 50%;
-    position: absolute;
-    left: 80px;
-    top: 20px;
-    background-color: transparent;
+
+/* Make it responsive */
+@media (max-width: 768px) {
+    .logo-container {
+        left: 10px; /* Adjust left position for smaller screens */
+    }
 }
-#rockilogobottom{
-    border-radius: 50%;
-    width: 130px; /* Adjust width according to your logo size */
-    height: auto;
+
+.hero__caption {
+    text-align: left;
+    margin-left: -180px; /* Adjust this value as needed */
 }
-.hero__caption{
-    margin-left: -90px;
+
+@media (max-width: 1199px) {
+    .col-xl-9 {
+        padding-left: 30px; /* Adjust this value as needed */
+        padding-right: 0;
+    }
 }
+
+@media (max-width: 991px) {
+    .col-lg-9 {
+        padding-left: 30px; /* Adjust this value as needed */
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-10 {
+        padding-left: 30px; /* Adjust this value as needed */
+        padding-right: 0;
+    }
+    .hero__caption {
+        margin-left: 30px; /* Keep it unchanged for smaller devices */
+    }
+}
+
+
+    #rockilogobottom{
+        border-radius: 50%;
+        width: 130px; /* Adjust width according to your logo size */
+        height: auto;
+    }
+
 /* about me  */
 .hero-cap h2{
     color: black;
