@@ -3465,7 +3465,7 @@ hr {
 @media (max-width: 414px) {
   .slider-area {
     padding-top: 10px;
-    background-image: url(../img/image4.jpeg);
+    background-image: url(../img/cropmain.png);
     background-position: right 50% center; /* Move background image further to the right */
     background-size: cover;
     height: 100vh;
