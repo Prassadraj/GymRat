@@ -2930,7 +2930,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   -webkit-text-stroke: 1px #f6f7f8;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2951,6 +2951,7 @@ hr {
   /* line 899, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 58px;
+    text-align: center;
   }
 }
 
@@ -2958,6 +2959,7 @@ hr {
   /* line 899, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle h2 {
     font-size: 45px;
+    text-align: center;
   }
 }
 
@@ -2965,6 +2967,7 @@ hr {
 .section-tittle2 h2 {
   font-size: 70px;
   display: block;
+  text-align: justify;
   color: #2c234d;
   font-weight: 700;
   text-transform: uppercase;
@@ -2976,6 +2979,7 @@ hr {
   /* line 924, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 50px;
+    text-align: justify;
   }
 }
 
@@ -2983,6 +2987,7 @@ hr {
   /* line 924, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 50px;
+    text-align: justify;
   }
 }
 
@@ -2990,6 +2995,7 @@ hr {
   /* line 924, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 58px;
+    text-align: justify;
   }
 }
 
@@ -2997,6 +3003,7 @@ hr {
   /* line 924, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
   .section-tittle2 h2 {
     font-size: 45px;
+    text-align: justify;
   }
 }
 
@@ -3004,6 +3011,8 @@ hr {
 .section-tittle2 p {
   color: #fff;
   font-size: 18px;
+  padding: 10px;
+  text-align: justify;
 }
 
 /* line 951, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
@@ -3434,13 +3443,25 @@ hr {
     padding-top: 80px;
   }
 }
-
 @media (max-width: 575px) {
-  /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
-  .slider-area .hero__caption {
-    padding-top: 80px;
+  .slider-area  {
+    padding-top: 10px;
+
+  }
+  .hero__caption{
+padding-top: -290px;
+margin-top: -100px;
+
+  }
+  .slider-area {
+    background-image: url(/Users/prassadraj/Downloads/zacson-master/Doc/img/mainpic.jpg);
+    background-position: right;
+    background-size: cover; /* Ensures the background image covers the entire container */
+    height: 100vh; /* Ensures the container takes up the full height of the viewport */
   }
 }
+
+
 
 /* line 58, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption span {
@@ -3451,7 +3472,7 @@ hr {
   position: relative;
   text-transform: uppercase;
   -webkit-text-stroke: 1px #000000;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   line-height: 1.2;
 }
 
@@ -3923,6 +3944,20 @@ font-size: 40px;
 .pricing-area .properties__card:hover {
   box-shadow: 0px 8px 8px 0px rgba(2, 25, 65, 0.08);
 }
+@media (max-width: 575px) {
+  .properties__card {
+    display: flex;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center;
+    margin-left: -30px;/* Vertically center the items */
+  }
+  .section-tittle {
+    display: flex;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center;
+  }
+}
+
 
 /* line 73, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_pricing.scss */
 .border-btn2 {
@@ -4640,6 +4675,24 @@ font-size: 40px;
 .footer-area .footer-bottom .footer-copy-right p a:hover {
   color: #fff;
 }
+@media only screen and (max-width: 475px) {
+  .footer-copy-right p {
+    font-size: 14px; /* Adjust the font size for mobile screens */
+  }
+}
+
+
+
+@media only screen and (min-width: 476px) {
+  .footer-copy-right p{
+    font-size: 1px; /* Font size for larger screens */
+  }
+  .footer-copy-right a{
+    font-size: large;
+  }
+
+}
+
 
 /* line 41, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
 .footer-area .footer-social a {
