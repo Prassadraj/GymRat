@@ -10,6 +10,10 @@
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     border-radius: 50%;
 }
+#hero__caption{
+    margin-left: -90px;
+    margin-top: -30px;
+}
 /* fuel/\ */
 /* For iPhone 5/SE and similar */
 @media only screen and (max-width: 320px) {
@@ -139,6 +143,147 @@
         left: 10px; /* Adjust left position for smaller screens */
     }
 }
+/* price */
+/* For iPhone 5/SE and similar */
+
+
+/* aboutme */
+/* For iPhone 5/SE and similar */
+@media only screen and (max-width: 320px) {
+    .section-tittle2 p {
+        margin-left: 27px;
+        padding: 0px;
+        font-size: 14px; /* Adjust font size as needed */
+    }
+}
+
+/* For iPhone 6/7/8 and similar */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .section-tittle2 p {
+        margin-left: 27px;
+        padding: 0px;
+        font-size: 16px; /* Adjust font size as needed */
+    }
+}
+
+/* For iPhone 6/7/8 Plus and similar */
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+    .section-tittle2 p {
+        margin-left: 27px;
+        padding: 0px;
+        font-size: 18px; /* Adjust font size as needed */
+    }
+}
+
+/* For iPhone X/XS/11 Pro and similar */
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .section-tittle2 p {
+        margin-left: 27px;
+        padding: 0px;
+        font-size: 18px; /* Adjust font size as needed */
+    }
+}
+
+/* For iPhone XR/11 and similar */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .section-tittle2 p {
+        margin-left: 27px;
+        padding: 0px;
+        font-size: 18px; /* Adjust font size as needed */
+    }
+}
+
+/* For iPhone XS Max/11 Pro Max and similar */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    .section-tittle2 p {
+        margin-left: 27px;
+        padding: 0px;
+        font-size: 18px; /* Adjust font size as needed */
+    }
+}
+
+/* Default styles */
+/* Center-align the content */
+.about-area2 {
+    text-align: center;
+}
+
+/* Hide the larger heading by default */
+#large {
+    display: none;
+}
+
+/* For small devices (iPhone 5/SE) */
+@media only screen and (max-width: 320px) {
+    #aboutme {
+        display: block;
+    }
+    #large {
+        display: none;
+    }
+
+}
+
+/* For medium-sized devices (iPhone 6/7/8) */
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    #aboutme {
+        display: block;
+    }
+    #large {
+        display: none;
+    }
+}
+
+/* For large devices (iPhone 6/7/8 Plus) */
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+    #aboutme {
+        display: block;
+    }
+    #large {
+        display: none;
+    }
+}
+
+/* For extra-large devices (iPhone X/XS/11 Pro) */
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    #aboutme {
+        display: block;
+    }
+    #large {
+        display: none;
+    }
+}
+
+/* For extra-large devices (iPhone XR/11) */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    #aboutme {
+        display: block;
+    }
+    #large {
+        display: none;
+    }
+}
+
+/* For extra-large devices (iPhone XS Max/11 Pro Max) */
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    #aboutme {
+        display: block;
+    }
+    #large {
+        display: none;
+    }
+}
+
+/* For laptops and larger devices */
+@media only screen and (min-width: 897px) {
+    #aboutme {
+        display: none;
+    }
+    #large {
+        display: block;
+    }
+}
+
 
 .hero__caption {
     text-align: left;

@@ -3012,7 +3012,15 @@ hr {
   color: #fff;
   font-size: 18px;
   padding: 10px;
+  /* margin-left: 24px; */
+  font-family: 'Goofont', sans-serif; 
   text-align: justify;
+}
+@font-face {
+  font-family: 'Goofont';
+  src: url('path/to/goofont.woff2') format('woff2'), /* Modern Browsers */
+       url('path/to/goofont.woff') format('woff'); /* Legacy Browsers */
+  /* Add more src URLs if you have different font formats */
 }
 
 /* line 951, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
@@ -3402,13 +3410,12 @@ hr {
 
 /* line 31, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area2 {
-  background-image: url(../img/image4.jpeg);
+  background-image: url(../img/mainpic.jpg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
 }
 
-/* line 37, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
   background-image: url(../img/image4.jpeg);
@@ -3418,65 +3425,54 @@ hr {
   background-attachment: fixed;
 }
 
-/* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption {
   overflow: hidden;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
     padding-top: 80px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
     padding-top: 80px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 44, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
     padding-top: 80px;
   }
 }
+
 @media (max-width: 575px) {
-  .slider-area  {
-    padding-top: 10px;
-    
-
-  }
-  .hero__caption{
-padding-top: -290px;
-margin-top: -100px;
-
-  }
   .slider-area {
-    background-image: url(../img/mainpic.jpg);
-    background-position:right center;
-    
-    background-size: cover; /* Ensures the background image covers the entire container */
-    height: 100vh; /* Ensures the container takes up the full height of the viewport */
-  }
-}
-@media (max-width: 414px) { /* iPhone 11 and 12 portrait mode width */
-  .slider-area  {
     padding-top: 10px;
+    background-position: right center;
+    background-size: cover;
+    height: 100vh;
   }
   .hero__caption {
     padding-top: -290px;
     margin-top: -100px;
   }
+}
+@media (max-width: 414px) {
   .slider-area {
-    background-image: url(../img/mainpic.jpg);
-    background-position: right center;
+    padding-top: 10px;
+    background-image: url(../img/cropmain.jpg);
+    background-position: right 50% center; /* Move background image further to the right */
     background-size: cover;
     height: 100vh;
   }
+  .hero__caption {
+    padding-top: -290px;
+    margin-top: -100px;
+  }
 }
+
 
 
 
