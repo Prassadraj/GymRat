@@ -3464,18 +3464,21 @@ background-color: rgb(255, 255, 255);
     background-image: url(../img/casual1.png);
     background-position: center; /* Center the background image horizontally */
     background-size: cover;
-    
+    height: 100vh;
   }
 }
 
 @media (max-width: 575px) {
   .slider-area {
-    padding-top: 10px;
-    background-image: url(../img/casual1.png);
-    background-position: center; /* Center the background image horizontally */
-    background-size: cover;
-
+     
+      padding-top: 10px;
+      background-image: url(../img/casual1.png);
+      background-position: center top; /* Center the background image horizontally and show the top */
+      background-size: cover;
+      height: 100vh;
   }
+  
+  
   .hero__caption {
     padding-top: -290px;
     margin-top: -100px;
@@ -3487,7 +3490,7 @@ background-color: rgb(255, 255, 255);
     background-image: url(../img/casual1.png);
     background-position: center; /* Center the background image horizontally */
     background-size: cover;
-
+    height: 100vh;
   }
   .hero__caption {
     padding-top: -290px;
