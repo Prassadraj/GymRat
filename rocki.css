@@ -292,67 +292,48 @@
     }
 }
 /* about us content */
+/* Common style for all iPhones */
+#largecontent {
+    display: block; /* Show large content by default */
+}
+#smallcontent {
+    display: none; /* Hide small content by default */
+}
+
 /* For iPhone 5/SE */
 @media only screen and (max-width: 320px) {
     #largecontent {
-        display: none;
+        display: none; /* Hide large content for iPhone 5/SE */
     }
     #smallcontent {
-        display: block;
+        display: block; /* Show small content for iPhone 5/SE */
     }
 }
 
 /* For iPhone 6/7/8 */
 @media only screen and (min-width: 321px) and (max-width: 375px) {
-    #largecontent {
-        display: none;
-    }
-    #smallcontent {
-        display: block;
-    }
+    /* No changes needed for iPhone 6/7/8 */
 }
 
 /* For iPhone 6/7/8 Plus */
 @media only screen and (min-width: 376px) and (max-width: 414px) {
-    #largecontent {
-        display: none;
-    }
-    #smallcontent {
-        display: block;
-    }
+    /* No changes needed for iPhone 6/7/8 Plus */
 }
 
 /* For iPhone X/XS/11 Pro */
-@media only screen and (min-width: 375px) and (max-width: 812px) {
-    #largecontent {
-        display: none;
-    }
-    #smallcontent {
-        display: block;
-    }
+@media only screen and (min-width: 376px) and (max-width: 812px) {
+    /* No changes needed for iPhone X/XS/11 Pro */
 }
 
 /* For iPhone XR/11 */
-@media only screen and (min-width: 414px) and (max-width: 896px) {
-    #largecontent {
-        display: none;
-    }
-    #smallcontent {
-        display: block;
-    }
+@media only screen and (min-width: 415px) and (max-width: 896px) {
+    /* No changes needed for iPhone XR/11 */
 }
-
 
 /* For iPhone XS Max/11 Pro Max */
-@media only screen and (min-width: 414px) and (max-width: 896px) {
-    #largecontent {
-        display: none;
-    }
-    #smallcontent {
-        display: block;
-    }
+@media only screen and (min-width: 415px) and (max-width: 896px) {
+    /* No changes needed for iPhone XS Max/11 Pro Max */
 }
-
 
 .hero__caption {
     text-align: left;
