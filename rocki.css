@@ -341,15 +341,6 @@
         display: block;
     }
 }
-/* For laptops and larger devices */
-@media only screen and (min-width: 897px) {
-    #largecontent {
-        display: block;
-    }
-    #smallcontent {
-        display: none;
-    }
-}
 
 
 /* For iPhone XS Max/11 Pro Max */
