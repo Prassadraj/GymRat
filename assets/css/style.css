@@ -3012,9 +3012,10 @@ hr {
   color: #fff;
   font-size: 18px;
   padding: 10px;
+  font-weight: 700;
   /* margin-left: 24px; */
-  font-family: 'Goofont', sans-serif; 
-  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  text-align: start;
 }
 @font-face {
   font-family: 'Goofont';
@@ -3022,6 +3023,13 @@ hr {
        url('path/to/goofont.woff') format('woff'); /* Legacy Browsers */
   /* Add more src URLs if you have different font formats */
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('path/to/poppins.woff2') format('woff2'), /* Modern Browsers */
+       url('path/to/poppins.woff') format('woff'); /* Legacy Browsers */
+  /* Add more src URLs if you have different font formats */
+}
+
 
 /* line 951, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
 .section-bg {
@@ -3201,12 +3209,13 @@ hr {
 
 /* line 62, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li a {
-  color: #fefefe;
-  background: #000;
+  color: #000000;
+background-color: rgb(255, 255, 255);
   font-weight: 500;
-  padding: 0px 29px;
+  margin-top: 10px;
+  padding: 5px 29px;
   margin-left: 10px;
-  border-radius: 30%;
+  border-radius: 20%;
   display: block;
   font-size: 18px;
   font-family: "Oswald", sans-serif;
@@ -3222,6 +3231,7 @@ hr {
   /* line 62, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .menu-wrapper .main-menu ul li a {
     padding: 39px 9px;
+    
   }
 }
 
@@ -3442,18 +3452,27 @@ hr {
   .slider-area .hero__caption {
     padding-top: 80px;
   }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area .hero__caption {
     padding-top: 80px;
   }
+  .slider-area {
+    padding-top: 10px;
+    background-image: url(../img/cropmain.png);
+    background-position: center; /* Center the background image horizontally */
+    background-size: cover;
+    height: 100vh;
+  }
 }
 
 @media (max-width: 575px) {
   .slider-area {
     padding-top: 10px;
-    background-position: right center;
+    background-image: url(../img/cropmain.png);
+    background-position: center; /* Center the background image horizontally */
     background-size: cover;
     height: 100vh;
   }
@@ -3466,13 +3485,13 @@ hr {
   .slider-area {
     padding-top: 10px;
     background-image: url(../img/cropmain.png);
-    background-position: right 50% center; /* Move background image further to the right */
+    background-position: center; /* Center the background image horizontally */
     background-size: cover;
     height: 100vh;
   }
   .hero__caption {
     padding-top: -290px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
   }
 }
 
@@ -6702,6 +6721,7 @@ font-size: 40px;
 .header-area .menu-wrapper .main-menu ul ul.submenu, .header-sticky.sticky-bar {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#950101+0,630102+50,3d0302+100 */
   background: #950101;
+  
   /* Old browsers */
   background: -moz-linear-gradient(top, #950101 0%, #630102 50%, #3d0302 100%);
   /* FF3.6-15 */
