@@ -3506,7 +3506,7 @@ background-color: rgb(255, 255, 255);
     height: 100vh;
   }
   .hero__caption {
-    padding-top: -300px;
+    padding-top: -290px;
     /* margin-top: -100px; */
   }
 }
@@ -3518,7 +3518,7 @@ background-color: rgb(255, 255, 255);
 /* line 58, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption span {
   font-size: 70px;
-  font-family: "Oswald", sans-serif;
+  /* font-family: "Oswald", sans-serif; */
   font-weight: 700;
   display: inline-block;
   position: relative;
@@ -3529,16 +3529,27 @@ background-color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 58, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
+  /* line 58, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */ 
   .slider-area .hero__caption span {
-    font-size: 53px;
+    font-size: 23px;
   }
 }
+@media only screen and (min-width: 286.08px) and (max-width: 413px) {
+  .slider-area .hero__caption span {
+    font-size: 13px;
+  }
+  .slider-area .hero__caption h1 {
+    font-size: 20px;
+  }
 
+}
 @media (max-width: 575px) {
   /* line 58, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption span {
-    font-size: 33px;
+    font-size: 23px;
+  }
+  .slider-area .hero__caption h1 {
+    font-size: 10px;
   }
 }
 
@@ -3578,7 +3589,7 @@ background-color: rgb(255, 255, 255);
 @media (max-width: 575px) {
   /* line 75, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 44px;
+    font-size: 24px;
     line-height: 1.4;
   }
 }
