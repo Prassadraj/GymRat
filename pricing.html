@@ -60,11 +60,11 @@
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a style="color: white;" href="index.html">Home</a></li>
-                                    <li><a style="color: white;" href="about.html">About</a></li>
-                                    <li><a style="color: white;" href="courses.html">Courses</a></li>
-                                    <li><a style="color: white;" href="pricing.html">Pricing</a></li>
-                                    <li><a style="color: white;" href="gallery.html">Gallery</a></li>
+                                    <li><a style="color: gray" href="index.html">Home</a></li>
+                                    <li><a style="color: gray" href="about.html">About</a></li>
+                                    <li><a style="color: gray" href="courses.html">Courses</a></li>
+                                    <li><a style="color: gray" href="pricing.html">Pricing</a></li>
+                                    <li><a style="color: gray" href="gallery.html">Gallery</a></li>
                                     <!-- <li><a href="blog.html">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">Blog</a></li>
@@ -72,10 +72,17 @@
                                             <li><a href="elements.html">Elements</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a style="color: white;" href="contact.html">Contact</a></li>
+                                    <li><a style="color: gray" href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>   
+                        <script>
+                            // JavaScript code
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header-area');
+    header.classList.toggle('scroll-nav', window.scrollY > 0);
+});
+                        </script>   
                         <style>
                             .scroll-nav .main-menu ul li a {
     color: rgb(255, 255, 255) !important;
