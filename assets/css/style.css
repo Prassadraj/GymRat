@@ -3211,7 +3211,7 @@ hr {
 
 /* line 62, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li a {
-  color: #000000;
+  /* color: #000000; */
 /* background-color: rgb(255, 255, 255); */
   font-weight: 500;
   margin-top: 2px;
@@ -6757,7 +6757,7 @@ font-size: 40px;
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #cd2424 0%, #950101 50%, #3d0302 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #fffdfd 0%, #ffffff 50%, #ffffff 100%);
+  background: linear-gradient(to bottom, #950101 0%, #950101 50%, #3d0302 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#950101', endColorstr='#3d0302',GradientType=0 );
   /* IE6-9 */

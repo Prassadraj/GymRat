@@ -38,7 +38,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                   <h4 style="font-weight: 900;font-size:23px;">FIT OR FA<span 
+                   <h4 style="font-weight: 900;font-size:23px;">FIT OR FAT<span 
                     style="color: rgb(236, 114, 134);" class="material-symbols-outlined">
                     add_a_photo
                     </span></h4>
@@ -61,11 +61,11 @@
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="courses.html">Courses</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a style="color: white;" href="index.html">Home</a></li>
+                                    <li><a style="color: white;" href="about.html">About</a></li>
+                                    <li><a style="color: white;" href="courses.html">Courses</a></li>
+                                    <li><a style="color: white;" href="pricing.html">Pricing</a></li>
+                                    <li><a style="color: white;" href="gallery.html">Gallery</a></li>
                                     <!-- <li><a href="blog.html">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">Blog</a></li>
@@ -73,10 +73,28 @@
                                             <li><a href="elements.html">Elements</a></li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a style="color: white;" href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
-                        </div>          
+                        </div>   
+                        <script>
+                            // JavaScript code
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header-area');
+    header.classList.toggle('scroll-nav', window.scrollY > 0);
+});
+                        </script>   
+                        <style>
+                            .scroll-nav .main-menu ul li a {
+    color: rgb(255, 255, 255) !important;
+
+                                }
+                                .main-menu li a:hover {
+    color: red !important;
+}
+
+
+                        </style>            
                         <!-- Header-btn -->
                         <div class="header-btns d-none d-lg-block f-right">
                            <a href="contact.html" class="btn">Contact me</a>
